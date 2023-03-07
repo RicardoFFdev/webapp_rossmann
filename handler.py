@@ -5,7 +5,7 @@ from flask import Flask, Response, request
 from rossmann.Rossmann import Rossmann
 
 # Loading model
-model = pickle.load(open('/model/model_rossman.pkl', 'rb'))
+model = pickle.load(open('model/model_rossman.pkl', 'rb'))
 
 # Initialize API
 app = Flask (__name__)
