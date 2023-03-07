@@ -1,3 +1,5 @@
+import os
+import pickle
 import pandas as pd
 from flask import Flask, Response, request
 from rossmann.Rossmann import Rossmann
