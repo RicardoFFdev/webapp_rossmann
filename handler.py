@@ -5,12 +5,12 @@ from flask import Flask, Response, request
 from rossmann.Rossmann import Rossmann
 
 # Loading model
-model = pickle.load(open('model/model_rossman.pkl', 'rb'))
+model = pickle.load(open('/model/model_rossman.pkl', 'rb'))
 
 # Initialize API
-app = Flask(__name__)
+app = Flask (__name__)
 
-@app.route('rossmann/predict', methods=['POST'])
+@app.route('/rossmann/predict', methods=['POST'])
 
 def rossmann_predict():
     test_json = request.get_json()
