@@ -88,7 +88,7 @@ As lojas da rede alemã Rossmann, que vendem itens de higiene, comidinhas, coisa
 
 ## 4.3 Mapa Mental para Criação de Hipóteses/Insights
 
-"[MindMap](./img/mind_map_hypothesis.png)
+![MindMap](./img/mind_map_hypothesis.png)
 
 ## 5.0 Premissas
 
@@ -101,48 +101,48 @@ As lojas da rede alemã Rossmann, que vendem itens de higiene, comidinhas, coisa
 ## 6.0 Principais Insights
 
 
-#### 1. Lojas com maior sortimentos vendem mais?
+### 1. Lojas com maior sortimentos vendem mais?
 
 -> A hipótese é FALSA. As lojas que possuem maior sortimento VENDEM MENOS no geral.
 
 ![h1](./img/h1barplot.png)
 
-#### 2. Lojas com competidores mais próximos vendem menos?
+### 2. Lojas com competidores mais próximos vendem menos?
 -> A hipótese é FALSA. Lojas com COMPETIDORES MAIS PRÓXIMOS VENDEM MAIS.
 
 ![h2](./img/h2plot.png)
 
-#### 3. Lojas com competidores há mais tempo vendem mais?
+### 3. Lojas com competidores há mais tempo vendem mais?
 ->  A hipótese é FALSA. Lojas com competidores há mais tempo VENDEM MENOS.
 
 ![h3](./img/h3plot.png)
 
-#### 4. Lojas com promoções ativas por mais tempo vendem mais?
+### 4. Lojas com promoções ativas por mais tempo vendem mais?
 -> A hipótese é FALSA. Depois de um certo período de promoção as lojas passam a vender MENOS.
 
 ![h4](./img/h4plot.png)
 
-#### 5. Lojas com promoções consecutivas vendem mais?
+### 5. Lojas com promoções consecutivas vendem mais?
 -> A hipótese é FALSA. As lojas com promoções consecutivas vendem MENOS.
 
 ![h5](./img/h5plot.png)
 
-#### 6. Lojas abertas durante o feriado do Natal vendem mais?
+### 6. Lojas abertas durante o feriado do Natal vendem mais?
 -> A hipótese é FALSA. As lojas abertas durante o feriado do Natal vendem MENOS.
 
 ![h6](./img/h6plot.png)
 
-#### 7. As lojas estão vendendo mais ao longo dos anos?
+### 7. As lojas estão vendendo mais ao longo dos anos?
 -> A hipótese é FALSA. As vendas estão diminuindo ao longo dos anos.
 
 ![h7](./img/h7plot.png)
 
-#### 8. Lojas vendem menos nos finais de semana?
+### 8. Lojas vendem menos nos finais de semana?
 -> A hipótese é VERDADEIRA. As lojas vendem MENOS nos finais de semana.
 
 ![h8](./img/h9plot.png)
 
-#### 9. Lojas vendem mais depois do 10º dia do mês?
+### 9. Lojas vendem mais depois do 10º dia do mês?
 -> A hipótese é VERDADEIRA. As lojas vendem MAIS depois do 10º do mês.
 
 ![h9](./img/h9plot.png)
