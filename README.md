@@ -2,7 +2,6 @@
 
 ![Getting Started](./img/rossmann_shop_foto_stralsund.jpg)
 
-# EM DESENVOLVIMENTO
 
 # Sejam bem-vindos ao meu projeto de portfólio de negócio da empresa Rossmann.
 
@@ -26,7 +25,7 @@ Diante dessa situação o time de dados ficou encarregado de realizar uma análi
 
 ### Método CRISP-DS
 
-(./img/ciclo.png)
+![Crisp](./img/ciclo.png)
 
 
 ## 2.1 Ferramentas, IDE's e Bibliotecas
@@ -89,7 +88,7 @@ As lojas da rede alemã Rossmann, que vendem itens de higiene, comidinhas, coisa
 
 ## 4.3 Mapa Mental para Criação de Hipóteses/Insights
 
-(./img/mind_map_hypothesis.png)
+"[MindMap](./img/mind_map_hypothesis.png)
 
 ## 5.0 Premissas
 
@@ -106,47 +105,47 @@ As lojas da rede alemã Rossmann, que vendem itens de higiene, comidinhas, coisa
 
 -> A hipótese é FALSA. As lojas que possuem maior sortimento VENDEM MENOS no geral.
 
-(./img/h1barplot.png)
+![h1](./img/h1barplot.png)
 
 #### 2. Lojas com competidores mais próximos vendem menos?
 -> A hipótese é FALSA. Lojas com COMPETIDORES MAIS PRÓXIMOS VENDEM MAIS.
 
-(./img/h2plot.png)
+![h2](./img/h2plot.png)
 
 #### 3. Lojas com competidores há mais tempo vendem mais?
 ->  A hipótese é FALSA. Lojas com competidores há mais tempo VENDEM MENOS.
 
-(./img/h3plot.png)
+![h3](./img/h3plot.png)
 
 #### 4. Lojas com promoções ativas por mais tempo vendem mais?
 -> A hipótese é FALSA. Depois de um certo período de promoção as lojas passam a vender MENOS.
 
-(./img/h4plot.png)
+![h4](./img/h4plot.png)
 
 #### 5. Lojas com promoções consecutivas vendem mais?
 -> A hipótese é FALSA. As lojas com promoções consecutivas vendem MENOS.
 
-(./img/h5plot.png)
+![h5](./img/h5plot.png)
 
 #### 6. Lojas abertas durante o feriado do Natal vendem mais?
 -> A hipótese é FALSA. As lojas abertas durante o feriado do Natal vendem MENOS.
 
-(./img/h6plot.png)
+![h6](./img/h6plot.png)
 
 #### 7. As lojas estão vendendo mais ao longo dos anos?
 -> A hipótese é FALSA. As vendas estão diminuindo ao longo dos anos.
 
-(./img/h7plot.png)
+![h7](./img/h7plot.png)
 
 #### 8. Lojas vendem menos nos finais de semana?
 -> A hipótese é VERDADEIRA. As lojas vendem MENOS nos finais de semana.
 
-(./img/h9plot.png)
+![h8](./img/h9plot.png)
 
 #### 9. Lojas vendem mais depois do 10º dia do mês?
 -> A hipótese é VERDADEIRA. As lojas vendem MAIS depois do 10º do mês.
 
-(./img/h9plot.png)
+![h9](./img/h9plot.png)
 
 
 ## 7.0 Modelagem dos dados
@@ -162,11 +161,11 @@ A melhor performace encontrada foi do  Random Forest Regressor, porém escolhemo
 
 ## Performance
 
-(./img/models_performance.png)
+![perform](./img/models_performance.png)
 
 ## Cross Validation Performance
 
-(./img/cv_performance.png)
+![cv](./img/cv_performance.png)
 
 ## 8.0 Avaliação do Algorítimo
 
@@ -176,14 +175,14 @@ Com o algorítimo XGBoost escolhido na etapa anterior, foi realizada uma anális
 
 Desempenho dos dados de teste:
 
-(./img/xgb_tuned.png)
+![finetune](./img/xgb_tuned.png)
 
 ## 8.1 Tradução e interpretação de erros
 
 Nesta etapa o objetivo foi demonstrar o resultado do projeto, onde avaliamos a performance do modelo com viés de negócio, demonstando o resultado financeiro que pode-se esperar do modelo desenvolvido.
 
-(./img/perform.png)
+![tuned](./img/perform.png)
 
 ## Predições do Modelo de Machine Learning
 
-(./img/predictions.png)
+![pred](./img/predictions.png)
