@@ -156,6 +156,6 @@ class Rossmann(object):
         pred = model.predict(test_data)
 
         # Joining pred into the original data
-        original_data['prediciton'] = np.expm1(pred)
+        original_data['prediction'] = np.expm1(pred)
 
         return original_data.to_json(orient='records', date_format='iso')
