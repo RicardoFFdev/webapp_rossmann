@@ -1,6 +1,7 @@
-numpy
-pandas
-inflection
-Flask
-scikit-learn
-xgboost==1.6.2
+Flask==2.2.3
+inflection==0.5.1
+numpy @ file:///opt/conda/conda-bld/numpy_and_numpy_base_1653915516269/work
+pandas==1.4.4
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+requests @ file:///opt/conda/conda-bld/requests_1657734628632/work
+xgboost==1.7.4
