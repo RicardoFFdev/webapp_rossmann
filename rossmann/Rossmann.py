@@ -92,7 +92,7 @@ class Rossmann(object):
         df2['state_holiday'] = df2['state_holiday'].apply(lambda x: 'public_holiday' if x == 'a' else 'easter_holiday' if x == 'b' else 'christmas' if x == 'c' else 'regular_day')
 
         # 3.1 Row Filtering
-        df2 = df2[['open'] != 0]
+        #df2 = df2[['open'] != 0]
         
         # 3.2 Column Filtering
         cols_drop = ['open', 'promo_interval', 'month_map']
