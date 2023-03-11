@@ -2,5 +2,6 @@ numpy
 pandas
 inflection
 Flask
-xgboost==1.6.2
 scikit-learn
+pickle
+xgboost==1.6.2

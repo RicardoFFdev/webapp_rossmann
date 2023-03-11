@@ -173,7 +173,7 @@ A razão dessa escolha é que o XGBoost é um modelo mais leve para operar em pr
 
 Hyperparameter Tunning:
 
-Aqui eu realizei diversos testes de desempenho a partir das variações de ajustes dos parâmetros do algoritmo, fiz o uso da técnica de Random Search para poder encontrar os melhores ajustes finais. No final a acurácia do XGBoost ficou na melhor posição e pude economizar tempo de dinheiro, já que não foram necessárias máquinas na Cloud para poder executar os testes mais pesados, computacionalmente falando.
+Aqui eu realizei diversos testes de desempenho a partir das variações de ajustes dos parâmetros do algoritmo, fiz o uso da técnica de Random Search para poder encontrar os melhores ajustes finais. No final a acurácia do XGBoost ficou na melhor posição e pude economizar tempo e dinheiro, já que não foram necessárias máquinas de Cloud Computing para poder executar os testes mais pesados, computacionalmente falando.
 
 Desempenho dos dados de teste:
 
